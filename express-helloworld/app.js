@@ -14,6 +14,10 @@ app.get('/sun', function(req, res) {
   res.send('Hello Sun!\n');
 });
 
+app.get('/saturn', function(req, res) {
+  res.send('Hello Saturn!\n');
+});
+
 app.listen(8080, function () {
   console.log('Example app listening on port 8080!');
 });
